@@ -46,6 +46,14 @@ module.exports = (config) ->
             name: (path.join 'drawable-land-xhdpi', 'screen.png')
             width: 1280, height: 720
           }
+          {
+            name: (path.join 'drawable-land-xxhdpi', 'screen.png')
+            width: 1600, height: 960
+          }
+          {
+            name: (path.join 'drawable-land-xxxhdpi', 'screen.png')
+            width: 1920, height: 1280
+          }
         ]
       portrait:
         splashs: [
@@ -64,6 +72,14 @@ module.exports = (config) ->
           {
             name: (path.join 'drawable-port-xhdpi', 'screen.png')
             width: 720, height: 1280
+          }
+          {
+            name: (path.join 'drawable-port-xxhdpi', 'screen.png')
+            width: 960, height: 1600
+          }
+          {
+            name: (path.join 'drawable-port-xxxhdpi', 'screen.png')
+            width: 1280, height: 1920
           }
         ]
   # Bada and Bada WAC
